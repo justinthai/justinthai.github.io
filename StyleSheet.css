@@ -20,3 +20,33 @@
     background-color: #E65100;
     color: #FFF3E0;
   }
+  .center{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+  }
+  a:link {
+	  color: green;
+	  background-color: transparent;
+	  text-decoration: none;
+  }
+  a:visited {
+	  color: pink;
+	  background-color: transparent;
+	  text-decoration: none;
+  }
+  a:hover {
+	  color: #FFCC80;
+	  background-color: transparent;
+	  text-decoration: underline;
+  }
+  a:active {
+	  color: yellow;
+	  background-color: transparent;
+	  text-decoration: underline;
+  }
+  
+  
+  
+  
