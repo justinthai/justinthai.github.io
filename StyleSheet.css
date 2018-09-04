@@ -1,23 +1,26 @@
- #assignments{
-    font-family: Trebuchet MS", Arial, Helvetica, sans-serif;
+  body{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	background-color: #FFE0B2;
+  }
+  #assignments{
+    font-family:   'Helvetica', 'Arial', sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
   #assignments td, #assignments th{
     border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
+    padding: 20px;
+    text-align: left;
   }
   #assignments tr:nth-child(even)
-  {background-color: #FFE0B2;}
-  #assignments tr:hover{background-color:#FFCC80;}
+    {background-color: #FFD180;}
+  #assignments tr:hover{background-color:#FFB74D;}
   #assignments th{
   	padding: 40px;
-    padding-side: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center;
-    background-color: #E65100;
+    text-align: left;
+    background-color: #FB8C00;
     color: #FFF3E0;
   }
   #headshot{
@@ -32,6 +35,10 @@
   .centeredHeader{
 	  text-align: center;
   }
+  a.fancy{
+	text-align: center;
+	font-size: large;  
+  }  
   p.centeredLink{
 	  text-align: center;
 	  display: block;
