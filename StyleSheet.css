@@ -37,14 +37,9 @@
   }
   a.fancy{
 	text-align: center;
-	font-size: large;  
+	width: 100%;
+	font-size: 150%;  
   }  
-  p.centeredLink{
-	  text-align: center;
-	  display: block;
-	  margin: 20px auto;
-	  width: 120px;
-
   a:link {
 	  color: #FFAB40;
 	  background-color: transparent;
@@ -67,6 +62,13 @@
 	  text-decoration: underline;
   }
   
+  div.rcorners{
+	  border-radius: 10px 100px 10px 100px;
+	  background: #BDBDBD;
+	  padding: 40px;
+	  width: 250px;
+	  height: 15px;
+  }
   
   
   
