@@ -3,7 +3,7 @@
 	background-color: #FFE0B2;
   }
   #assignments{
-    font-family:   'Helvetica', 'Arial', sans-serif;
+    font-family:   Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
@@ -23,16 +23,46 @@
     background-color: #FB8C00;
     color: #FFF3E0;
   }
-  #headshot{
-	  width: 250px;
+  
+  .partners{
+	  display: inline;
+	  float: none;
   }
-  .center{
+  
+  section{
+	  border-radius: 1em;
+	  padding: 1em;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  margin-right: -50%;
+  transform: translate(-50%, -50%)
+  }
+  
+  div.reference{
+	border: 1px solid red;
+	display: block;
+	margin: 0 auto;
+  }
+  
+  #headshot{
 	  display: block;
 	  margin-left: auto;
 	  margin-right: auto;
-	  width: 50%
+	  max-width: 250px;
   }
-  .centeredHeader{
+  .reference p, h1{
+	 text-align: center;
+  }
+  
+  div.center{
+	  max-width: 50%;
+	  height: auto;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+  }
+  .center p h1{
 	  text-align: center;
   }
   a.fancy{
@@ -61,13 +91,14 @@
 	  background-color: transparent;
 	  text-decoration: underline;
   }
-  
   div.rcorners{
+	  display: inline-block;
 	  border-radius: 10px 100px 10px 100px;
-	  background: #BDBDBD;
+	  background-color: #BDBDBD;
 	  padding: 40px;
-	  width: 250px;
-	  height: 15px;
+	  width: 2.4em;
+	  height: 2.4em;
+	  text-align: center;
   }
   
   
