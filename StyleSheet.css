@@ -3,7 +3,7 @@
 	background-color: #FFE0B2;
   }
   h1 {
-	  font-size: 3em;
+	  font-size: 2em;
   }
   
   #assignments{
@@ -17,35 +17,52 @@
     text-align: center;
   }
   #assignments tr:nth-child(even)
-    {background-color: #FFD180;}
+    {background-color: #ffac2b;}
   #assignments tr:hover{background-color:#FFB74D;}
   #assignments th{
   	padding: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: left;
-    background-color: #FB8C00;
+    background-color: #FFD180;
     color: #FFF3E0;
 	font-size: 1.4em;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
   }
   
   div.hobbies{
 	/*border: 3px solid red;*/
 	display: block;
 	margin: 0 auto;
-	max-width: 70%
+	max-width: 70%;
+	background: #FFD180;
  }
   .hobbies h2{
+	padding-top: 8px;
 	text-align: left;
 	font-size: 1.5em;
 	font-family: Verdana, Arial, sans-serif;
+	color: #FFF3E0;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
  }
+  .hobbies li{
+	  padding: 5px;
+  }
+  
   ul{
 	background:#ffac2b;
 	padding: 0;
 	list-style-type: none;
-	margin: auto;
-	text-align: center;
+	
+	text-align: left;
  }
   ul li{
 	 font-size: 1.4em;
@@ -54,11 +71,11 @@
  }
  
   
-  .title li{
-	font-size: 1.4em;
+  .title{
+	font-size: 1.5em;
 	font-family: Verdana, Arial, sans-serif;
 	padding: 10px;
-	font-weight: bold;
+	color: #FFF3E0;
   }
   
   
@@ -74,16 +91,44 @@
 	max-width: 40%
   }
   
+  
+
   div.biography{
 	  /*border:3px solid blue;*/
-	  display: run-in;
 	  margin: 0 auto;
-	  max-width: 45%;
+	  max-width: 40%;
+	  min-width: 180px;
+	  background: #FFD180;
   }
   .biography h2{
-	  text-align: left;
-	  font-size: 1.5em;
-	  font-family: Verdana, Arial, sans-serif;
+	text-align: left;
+	font-size: 1.5em;
+	font-family: Verdana, Arial, sans-serif;
+	color: #FFF3E0;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	background
+  }
+  .biography ul{
+	margin: 0;
+	padding: 0;	
+  }
+
+  #quote{
+	  /*border: 2px solid red;*/
+	  font-size: 2em;
+	  font-family: Century Gothic, Impact, sans-serif;
+	  background: #81d4fe;
+	  width: 40%;
+	  padding: 5px;
+	  margin-top: 10px;
+	  margin: 20px auto;
+	  margin: 20px auto;
+	  border-radius: 40%;
+	  min-width: 180px;
   }
   
   #headshot{
