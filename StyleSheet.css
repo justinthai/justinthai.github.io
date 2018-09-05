@@ -23,43 +23,67 @@
   	padding: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center;
+    text-align: left;
     background-color: #FB8C00;
     color: #FFF3E0;
 	font-size: 1.4em;
   }
   
- div.hobbies{
-	border: 3px solid red;
+  div.hobbies{
+	/*border: 3px solid red;*/
 	display: block;
 	margin: 0 auto;
-	max-width: 45%
+	max-width: 70%
  }
- .hobbies h2{
-	text-align: center;
-	font-size: 2em;
+  .hobbies h2{
+	text-align: left;
+	font-size: 1.5em;
 	font-family: Verdana, Arial, sans-serif;
-	/*overflow-wrap: break-word;*/
  }
- ul{
+  ul{
 	background:#ffac2b;
 	padding: 0;
 	list-style-type: none;
-	border: 1px solid #ddd; 
 	margin: auto;
 	text-align: center;
  }
- ul li{
+  ul li{
 	 font-size: 1.4em;
 	 font-family: Arial, sans-serif;
 	 padding: 5px;
-	 
  }
  
+  
+  .title li{
+	font-size: 1.4em;
+	font-family: Verdana, Arial, sans-serif;
+	padding: 10px;
+	font-weight: bold;
+  }
+  
+  
   div.profile{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	display: block;
 	margin: 0 auto;
+  }
+   div.table{
+	/*border: 2px solid blue;*/
+	display: block;
+	margin: 0 auto;
+	max-width: 40%
+  }
+  
+  div.biography{
+	  /*border:3px solid blue;*/
+	  display: run-in;
+	  margin: 0 auto;
+	  max-width: 45%;
+  }
+  .biography h2{
+	  text-align: left;
+	  font-size: 1.5em;
+	  font-family: Verdana, Arial, sans-serif;
   }
   
   #headshot{
@@ -75,12 +99,7 @@
 	 text-align: center;
   }
   
-  div.table{
-	border: 2px solid blue;
-	display: block;
-	margin: 0 auto;
-	max-width: 40%
-  }
+ 
  
   
   div.center{
@@ -123,4 +142,5 @@
 	  background-color: transparent;
 	  text-decoration: underline;
   }
+  
   
