@@ -6,138 +6,26 @@
 	  font-size: 2em;
   }
   
-  #assignments{
-    font-family:   Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  #assignments td, #assignments th{
-    border: 1px solid #ddd;
-    padding: 15px;
-    text-align: center;
-  }
-  #assignments tr:nth-child(even)
-    {background-color: #ffac2b;}
-  #assignments tr:hover{background-color:#FFB74D;}
-  #assignments th{
-  	padding: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: left;
-    background-color: #FFD180;
-    color: #FFF3E0;
-	font-size: 1.4em;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+  #wrap{
+	  width: 50%;
+	  margin: o auto;
+		//border: black solid 1px;
   }
   
-  div.hobbies{
-	/*border: 3px solid red;*/
-	display: block;
-	margin: 0 auto;
-	max-width: 70%;
-	background: #FFD180;
- }
-  .hobbies h2{
-	padding-top: 8px;
-	text-align: left;
-	font-size: 1.5em;
-	font-family: Verdana, Arial, sans-serif;
-	color: #FFF3E0;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
- }
-  .hobbies li{
-	  padding: 5px;
+  #lcol{
+	  //border: red solid 1px;
+	  float: left;
+	  width: 25%;
   }
   
-  ul{
-	background:#ffac2b;
-	padding: 0;
-	list-style-type: none;
-	
-	text-align: left;
- }
-  ul li{
-	 font-size: 1.3em;
-	 font-family: Arial, sans-serif;
-	 padding: 5px;
- }
- 
-  
-  .title{
-	font-size: 1.5em;
-	font-family: Verdana, Arial, sans-serif;
-	padding: 10px;
-	color: #FFF3E0;
-  }
-  
-  
-  div.profile{
-	/*border: 1px solid red;*/
-	display: block;
-	margin: 0 auto;
-  }
-   div.table{
-	/*border: 2px solid blue;*/
-	display: block;
-	margin: 0 auto;
-	max-width: 40%
-  }
-  
-
-
-  div.biography{
-	  /*border:3px solid blue;*/
-	  margin: 0 auto;
-	  max-width: 40%;
-	  min-width: 180px;
-	  background: #FFD180;
-	  text-align:left;
-  }
-  .biography h2{
-	text-align: left;
-	font-size: 1.5em;
-	font-family: Verdana, Arial, sans-serif;
-	color: #FFF3E0;
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-  }
-  .biography ul{
-	margin: 0;
-	padding: 0;
-	list-style-type: circle;
-  }
-  .biography li{
-	  font-size: 1.25em;
-  }
- 
-
-  #quote{
-	  /*border: 2px solid red;*/
-	  font-size: 2em;
-	  font-family: Century Gothic, Impact, sans-serif;
-	  background: #81d4fe;
-	  width: 40%;
-	  padding: 5px;
-	  margin-top: 10px;
-	  margin: 20px auto;
-	  margin: 20px auto;
-	  border-radius: 40%;
-	  min-width: 180px;
+  #rcol{
+	 // border: blue solid 1px;
+	  float:right;
+	  width: 25%;
   }
   
   #headshot{
-	display: block;
+	
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 250px;
@@ -145,55 +33,6 @@
 	padding: 1px;
 	width: 30%;
   }
-  .profile p, h1{
-	 text-align: center;
-  }
-  
- .specialwords{
-	color: red;
-	font-weight: bold;
- }
- 
-  
-  div.center{
-	  max-width: 50%;
-	  height: auto;
-	  display: block;
-	  margin-left: auto;
-	  margin-right: auto;
-  }
-  .center p h1{
-	  text-align: center;
-  }
-   
-  .table a{
-	  display: block;
-	  text-decoration: none;
-  }
-  a.fancy{
-	text-align: center;
-	width: 100%;
-	font-size: 1.1em;  
-  }  
-  a:link {
-	  color: #0957a1;
-	  background-color: transparent;
-	  text-decoration: none;
-  }
-  a:visited {
-	  color: #bf000c;
-	  background-color: transparent;
-	  text-decoration: none;
-  }
-  a:hover {
-	  color: #FF6D00;
-	  background-color: transparent;
-	  text-decoration: underline;
-  }
-  a:active {
-	  color: yellow;
-	  background-color: transparent;
-	  text-decoration: underline;
-  }
+
   
   
